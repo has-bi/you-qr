@@ -1,7 +1,6 @@
 import Details from '@/common/wrappers/qrcodeDisplay/details';
 import DownloadButton from '@/common/wrappers/qrcodeDisplay/downloadButton';
 import FileInput from '@/common/wrappers/qrcodeDisplay/inputFile';
-import ShapesSwitcher from '@/common/wrappers/qrcodeDisplay/shapesSwitcher';
 import { ColorsTabs } from '@/common/wrappers/qrcodeDisplay/tabs/colorsTabs';
 import { ColorTypes } from '@/context/colorTypes';
 import { QrStyleContext } from '@/context/index';
@@ -141,9 +140,6 @@ const QRCode = () => {
   return (
     <>
       <div className={'mx-auto flex justify-center pb-5'} ref={ref} />
-      <Details title={'Shape'}>
-        <ShapesSwitcher />
-      </Details>
       <Details title={'Colors'}>
         <ColorsTabs />
       </Details>

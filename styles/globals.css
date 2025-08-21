@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 html,
 body {
-  background-color: #ecf7ff;
+  background-color: #f8f9fa;
+  font-family: 'Inter', sans-serif;
 }
 
 /* spline-sans-300 - latin */

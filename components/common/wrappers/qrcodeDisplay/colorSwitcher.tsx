@@ -13,6 +13,8 @@ const colorNames: Record<ColorTypes['colors'], ColorTypes['colorNames']> = {
   '#9B2C2C': 'Red',
   '#D97706': 'Yellow',
   '#22543D': 'Green',
+  '#209848': 'Youvit Green',
+  '#ff8322': 'Youvit Orange',
   '#1D4ED8': 'Blue',
   '#4F46E5': 'Indigo',
   '#7C3AED': 'Purple',
@@ -31,6 +33,8 @@ const ColorSwitcher = ({ change }: BackgroundColorsProps) => {
       '#9B2C2C',
       '#D97706',
       '#22543D',
+      '#209848',
+      '#ff8322',
       '#1D4ED8',
       '#4F46E5',
       '#7C3AED',
@@ -47,8 +51,8 @@ const ColorSwitcher = ({ change }: BackgroundColorsProps) => {
       const isColorPicker = true;
       const resettable =
         (change === 'background' && color === 'transparent') ||
-        (change === 'dotColor' && color === '#FFFFFF') ||
-        (change === 'eyeColor' && color === '#FFFFFF');
+        (change === 'dotColor' && color === '#000000') ||
+        (change === 'eyeColor' && color === '#000000');
       const active = state[change] === color;
 
       const onClick = () => {

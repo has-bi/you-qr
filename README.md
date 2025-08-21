@@ -1,53 +1,52 @@
-# QR Code Generator
+# Youvit QR Code Generator
 
-A QR code generator that is fully open source and built with Next.js, TypeScript, and Tailwind. The generator is designed to be fast, easy to use, and does not require users to sign in or create an account.
-
-[Live Demo](https://qrcode.yaoss-collection.com)
-
-![screenshot](/screenshot.png)
-
-## Features
-
-- Generate QR codes for text, URLs, phone numbers, SMS, email addresses, and more
-- Customize QR code colors, size, and margin
-- Supports generating codes for WiFi network information, such as SSID, password, and encryption type (coming soon)
-- Provides a free API for generating QR codes (coming soon)
+> **Simple, fast text-to-QR code generator with Youvit branding.**
 
 ## Installation
 
-To run the project locally, you will need to have Node.js and npm installed. Once you have those installed, follow these steps:
+### Prerequisites
 
-1. Clone this repository:
+- [Node.js](https://nodejs.org/en/) v18.16.0 or higher
+- NPM or Yarn
 
-```git clone https://github.com/yaoss-collection/qrcodegenerator-frontend-nextjs.git```
+### Steps
 
-2. Navigate into the project directory:
-
-```cd qrcodegenerator-frontend-nextjs```
-
-3. Install the dependencies:
-
-```npm install```
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/has-bi/you-qr.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd you-qr
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and navigate to `http://localhost:3000`.
 
-```npm run dev```
+## Features
 
+- 🔗 **Text to QR Code**: Convert any text into a QR code instantly
+- 🎨 **Customizable Colors**: Customize dots and eye colors
+- 📱 **Mobile Responsive**: Works seamlessly on all devices
+- ⚡ **Fast & Lightweight**: Built with Next.js for optimal performance
+- 🎯 **Simple Interface**: Clean, focused design with Youvit branding
 
-The QR code generator should now be running at http://localhost:3000.
+## Tech Stack
 
-## Contributing
-
-Contributions are welcome! To contribute to the project, please follow these steps:
-
-1. Fork this repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with a descriptive commit message.
-4. Push your changes to your forked repository.
-5. Submit a pull request to this repository.
-
-Please make sure to include tests for any new features or bug fixes.
+- [Next.js](https://nextjs.org/) - React framework for production
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [QR Code Styling](https://www.npmjs.com/package/qr-code-styling) - QR code generation library
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Based on [QR Code Generator](https://github.com/yaoss-collection/qrcodegenerator-frontend-nextjs) 
+Copyright (c) yaoss-collection
+
+Modified and distributed under MIT License.

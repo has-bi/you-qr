@@ -1,4 +1,3 @@
-import Layout from '@/common/tabs';
 import '@/styles/globals.css';
 import ProgressBar from '@badrap/bar-of-progress';
 import { init } from '@socialgouv/matomo-next';
@@ -12,7 +11,7 @@ const MATOMO_SITE_ID = process.env.NEXT_PUBLIC_MATOMO_SITE_ID;
 
 const progress = new ProgressBar({
   size: 4,
-  color: '#da882f',
+  color: '#ff8322',
   className: 'bar-of-progress',
   delay: 100,
 });
@@ -33,9 +32,7 @@ class MyApp extends App {
     } = this.props;
     return (
       <QrStyleProvider>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        <Component {...pageProps} />
       </QrStyleProvider>
     );
   }

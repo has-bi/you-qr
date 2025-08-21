@@ -5,6 +5,8 @@ export interface ColorTypes {
     | '#9B2C2C' // red-700
     | '#D97706' // yellow-700
     | '#22543D' // green-700
+    | '#209848' // youvit-green
+    | '#ff8322' // youvit-orange
     | '#1D4ED8' // blue-700
     | '#4F46E5' // indigo-700
     | '#7C3AED' // purple-700
@@ -17,6 +19,8 @@ export interface ColorTypes {
     | 'Red'
     | 'Yellow'
     | 'Green'
+    | 'Youvit Green'
+    | 'Youvit Orange'
     | 'Blue'
     | 'Indigo'
     | 'Purple'

@@ -6,9 +6,9 @@ const initialState: IState = {
   style: 'square',
   dotType: 'square',
   background: 'transparent',
-  dotColor: '#FFFFFF',
-  eyeColor: '#FFFFFF',
-  value: "I'm EMPTY",
+  dotColor: '#000000',
+  eyeColor: '#000000',
+  value: 'Enter your text to generate QR code',
   logoImage: '',
 };
 

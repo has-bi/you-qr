@@ -4,10 +4,10 @@ import React, { ReactElement } from 'react';
 export default class MyDocument extends Document {
   render(): ReactElement {
     return (
-      <Html lang="fr">
+      <Html lang="en">
         <Head>
-          <meta name="msapplication-TileColor" content="#da532c" />
-          <meta name="theme-color" content="#ffffff" />
+          <meta name="msapplication-TileColor" content="#ff8322" />
+          <meta name="theme-color" content="#ff8322" />
           <link
             rel="preload"
             href="/fonts/spline-sans-v8-latin-700.woff"

@@ -8,10 +8,6 @@ function classNames(...classes: string[]) {
 export const ColorsTabs = () => {
   const tabs = [
     {
-      name: 'Background',
-      jsx: <ColorSwitcher change={'background'} />,
-    },
-    {
       name: 'Dots',
       jsx: <ColorSwitcher change={'dotColor'} />,
     },
@@ -28,7 +24,7 @@ export const ColorsTabs = () => {
             key={tab.name}
             className={({ selected }) =>
               classNames(
-                'flex w-fit justify-center rounded-lg bg-blue-light px-2 py-3 text-xs font-medium uppercase leading-5 transition-all duration-300 ease-in-out lg:w-full',
+                'bg-blue-light flex w-fit justify-center rounded-lg px-2 py-3 text-xs font-medium uppercase leading-5 transition-all duration-300 ease-in-out lg:w-full',
                 selected
                   ? 'bg-blue-light text-white shadow'
                   : 'text-blue-100 opacity-50 hover:bg-white/[0.12] hover:text-white'

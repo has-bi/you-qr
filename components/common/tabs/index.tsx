@@ -97,7 +97,7 @@ const Layout = ({ children }: TabProps) => {
   return (
     <div
       className={
-        'mx-auto flex max-w-7xl flex-col-reverse bg-primary pb-24 align-middle font-spline-sans text-6xl font-medium text-secondary md:flex-row md:pt-12'
+        'mx-auto flex max-w-7xl flex-col-reverse bg-light pb-24 align-middle font-inter text-6xl font-medium text-secondary md:flex-row md:pt-12'
       }
     >
       <nav

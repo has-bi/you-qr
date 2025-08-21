@@ -80,7 +80,7 @@ export const Button = ({
   return (
     <button
       className={clsx(
-        'mr-2 flex items-center rounded-lg bg-blue-light px-2 py-3 text-white transition-all duration-300 ease-in-out',
+        'bg-blue-light mr-2 flex items-center rounded-lg px-2 py-3 text-white transition-all duration-300 ease-in-out',
         {
           'bg-blue-light': active && !isColorPicker,
           'opacity-50': !active && !isColorPicker,
