@@ -18,7 +18,7 @@
     "release": "release-it"
   },
   "dependencies": {
-    "@badrap/bar-of-progress": "^0.2.2",
+    "@badrap/bar-of-progress": "^0.3.0",
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
     "@headlessui/react": "^1.7.14",
